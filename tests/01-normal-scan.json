@@ -1,0 +1,26 @@
+{
+  "id": "01-normal-scan",
+  "name": "סריקה רגילה",
+  "description": "התוכנית תקלוט מהמשתמש פעולה בתפריט (0) ותבצע סריקה האם תיקיית הקבצים שהתקבלה כפרמטר הראשון, נגועה בוירוס שהתקבל כפרמטר השני.",
+  "flow": true,
+  "strictness": false,
+  "verbosity": 4,
+  "timeout": 1,
+  "args": ["toScan", "KittenVirusSign"],
+  "dialogue": [
+    {"type": "input", "name": "הפעולה מהתפריט שנבחרה", "value": "0"},
+    {"type": "output", "name": "סריקה עבור הקובץ", "value": "infectedBeg"},
+    {"type": "output", "name": "תוצאת הסריקה עבור הקובץ", "value": "Infected!"},
+    {"type": "output", "name": "סריקה עבור הקובץ", "value": "infectedBorder"},
+    {"type": "output", "name": "תוצאת הסריקה עבור הקובץ", "value": "Infected!"},
+    {"type": "output", "name": "סריקה עבור הקובץ", "value": "infectedEnd"},
+    {"type": "output", "name": "תוצאת הסריקה עבור הקובץ", "value": "Infected!"},
+    {"type": "output", "name": "סריקה עבור הקובץ", "value": "infectedMiddle"},
+    {"type": "output", "name": "תוצאת הסריקה עבור הקובץ", "value": "Infected!"},
+    {"type": "output", "name": "סריקה עבור הקובץ", "value": "not1"},
+    {"type": "output", "name": "תוצאת הסריקה עבור הקובץ", "value": "Clean"},
+    {"type": "output", "name": "סריקה עבור הקובץ", "value": "tooSmall"},
+    {"type": "output", "name": "תוצאת הסריקה עבור הקובץ", "value": "Clean"},
+    {"type": "input", "name": "getchar בסוף התוכנית", "value": ""}
+  ]
+}
