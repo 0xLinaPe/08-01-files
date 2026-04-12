@@ -1,0 +1,18 @@
+Anti-virus began! Welcome!
+
+Folder to scan: 
+toScan
+Virus signature: 
+KittenVirusSign
+
+Scanning option:
+Quick Scan
+
+Results:
+toScan/AntiVirusLog.txt  Clean
+toScan/infectedBeg  Infected! (first 20%)
+toScan/infectedBorder  Infected!
+toScan/infectedEnd  Infected! (last 20%)
+toScan/infectedMiddle  Infected!
+toScan/not1  Clean
+toScan/tooSmall  Clean
